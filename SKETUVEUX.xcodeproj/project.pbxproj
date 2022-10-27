@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		474F4EAD290AB90200BE82A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EAC290AB90200BE82A6 /* AppDelegate.swift */; };
 		474F4EAF290AB90200BE82A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EAE290AB90200BE82A6 /* SceneDelegate.swift */; };
-		474F4EB1290AB90200BE82A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EB0290AB90200BE82A6 /* ViewController.swift */; };
+		474F4EB1290AB90200BE82A6 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EB0290AB90200BE82A6 /* DashboardViewController.swift */; };
 		474F4EB4290AB90200BE82A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474F4EB2290AB90200BE82A6 /* Main.storyboard */; };
 		474F4EB6290AB90500BE82A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474F4EB5290AB90500BE82A6 /* Assets.xcassets */; };
 		474F4EB9290AB90500BE82A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474F4EB7290AB90500BE82A6 /* LaunchScreen.storyboard */; };
@@ -27,7 +27,7 @@
 		474F4EA9290AB90200BE82A6 /* SKETUVEUX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKETUVEUX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		474F4EAC290AB90200BE82A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474F4EAE290AB90200BE82A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		474F4EB0290AB90200BE82A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474F4EB0290AB90200BE82A6 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		474F4EB3290AB90200BE82A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474F4EB5290AB90500BE82A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		474F4EB8290AB90500BE82A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			children = (
 				474F4EAC290AB90200BE82A6 /* AppDelegate.swift */,
 				474F4EAE290AB90200BE82A6 /* SceneDelegate.swift */,
-				474F4EB0290AB90200BE82A6 /* ViewController.swift */,
+				474F4EB0290AB90200BE82A6 /* DashboardViewController.swift */,
 				474F4EC2290ABA2000BE82A6 /* Pidouf.storyboard */,
 				474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */,
 				474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */,
@@ -173,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474F4EB1290AB90200BE82A6 /* ViewController.swift in Sources */,
+				474F4EB1290AB90200BE82A6 /* DashboardViewController.swift in Sources */,
 				474F4EAD290AB90200BE82A6 /* AppDelegate.swift in Sources */,
 				474F4EAF290AB90200BE82A6 /* SceneDelegate.swift in Sources */,
 			);
