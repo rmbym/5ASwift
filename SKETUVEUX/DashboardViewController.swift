@@ -11,7 +11,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate {
     @IBOutlet weak var DashBoardMenuCollectionView: UICollectionView!
     
     private let dashboardSeguesIdentifiers = ["toPidouf","toJTJ","toBasanas","toEkip","toTeamRocket"]
-    private let dashboardNavItems = [["Pidouf","pidouf"], ["JTJ","JTJ"], ["Basanas",""], ["Ekip","ekip"], ["Team Rocket","teamRocket"]]
+    private let dashboardNavItems = [["Pidouf","pidouf"], ["JTJ","JTJ"], ["Basanas","basanas"], ["Ekip","ekip"], ["Team Rocket","teamRocket"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
