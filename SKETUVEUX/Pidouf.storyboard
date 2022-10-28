@@ -8,23 +8,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pidouf Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="PidoufController" customModule="SKETUVEUX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Jk4-vQ-C4l">
+                                <rect key="frame" x="75" y="94" width="240" height="656"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="34" id="6zm-FW-Qpa">
+                                        <rect key="frame" x="0.0" y="50" width="240" height="34"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6zm-FW-Qpa" id="kDF-Uu-kx1">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="34"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk0-p0-oi1">
+                                <rect key="frame" x="169" y="776" width="55" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Bouton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="uqw-Uu-hgB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Sk0-p0-oi1" firstAttribute="top" secondItem="Jk4-vQ-C4l" secondAttribute="bottom" constant="26" id="2ls-c1-53c"/>
+                            <constraint firstItem="Jk4-vQ-C4l" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9UW-6c-tPY"/>
+                            <constraint firstItem="Jk4-vQ-C4l" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="JKh-mr-XtD"/>
+                            <constraint firstItem="Jk4-vQ-C4l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="75" id="LhU-rc-CBm"/>
+                            <constraint firstItem="Sk0-p0-oi1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="169" id="hdR-8b-hLn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Jk4-vQ-C4l" secondAttribute="bottom" constant="60" id="zGz-m5-Qi5"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="TableView" destination="Jk4-vQ-C4l" id="Oac-FP-VfL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="68" y="4"/>
+            <point key="canvasLocation" x="67.692307692307693" y="3.5545023696682461"/>
         </scene>
     </scenes>
     <resources>
+        <image name="rectangle.portrait.and.arrow.right.fill" catalog="system" width="128" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -21,6 +21,7 @@
 		474F4ECE290ABDFA00BE82A6 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECD290ABDFA00BE82A6 /* Realm */; };
 		474F4ED0290ABDFA00BE82A6 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECF290ABDFA00BE82A6 /* RealmSwift */; };
 		474F4ED3290ABEF700BE82A6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ED2290ABEF700BE82A6 /* Alamofire */; };
+		FE72F3C6290BC7390023E701 /* PidoufController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72F3C5290BC7390023E701 /* PidoufController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JTJ.storyboard; sourceTree = "<group>"; };
 		474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ekip.storyboard; sourceTree = "<group>"; };
 		474F4ECA290ABB5F00BE82A6 /* Basanas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basanas.storyboard; sourceTree = "<group>"; };
+		FE72F3C5290BC7390023E701 /* PidoufController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidoufController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				474F4EAE290AB90200BE82A6 /* SceneDelegate.swift */,
 				474F4EB0290AB90200BE82A6 /* DashboardViewController.swift */,
 				474F4EC2290ABA2000BE82A6 /* Pidouf.storyboard */,
+				FE72F3C5290BC7390023E701 /* PidoufController.swift */,
 				474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */,
 				474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */,
 				474F4EC4290ABA9C00BE82A6 /* LaTeamRocket.storyboard */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE72F3C6290BC7390023E701 /* PidoufController.swift in Sources */,
 				474F4EB1290AB90200BE82A6 /* DashboardViewController.swift in Sources */,
 				474F4EAD290AB90200BE82A6 /* AppDelegate.swift in Sources */,
 				474F4EAF290AB90200BE82A6 /* SceneDelegate.swift in Sources */,
