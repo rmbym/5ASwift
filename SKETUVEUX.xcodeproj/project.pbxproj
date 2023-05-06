@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4748EB75290BD3B60044DD3E /* BasanasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748EB74290BD3B60044DD3E /* BasanasViewController.swift */; };
 		474F4EAD290AB90200BE82A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EAC290AB90200BE82A6 /* AppDelegate.swift */; };
 		474F4EAF290AB90200BE82A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EAE290AB90200BE82A6 /* SceneDelegate.swift */; };
 		474F4EB1290AB90200BE82A6 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F4EB0290AB90200BE82A6 /* DashboardViewController.swift */; };
@@ -21,9 +22,11 @@
 		474F4ECE290ABDFA00BE82A6 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECD290ABDFA00BE82A6 /* Realm */; };
 		474F4ED0290ABDFA00BE82A6 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECF290ABDFA00BE82A6 /* RealmSwift */; };
 		474F4ED3290ABEF700BE82A6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ED2290ABEF700BE82A6 /* Alamofire */; };
+		475027BE290C0407004EF60D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475027BD290C0407004EF60D /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4748EB74290BD3B60044DD3E /* BasanasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasanasViewController.swift; sourceTree = "<group>"; };
 		474F4EA9290AB90200BE82A6 /* SKETUVEUX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKETUVEUX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		474F4EAC290AB90200BE82A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474F4EAE290AB90200BE82A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JTJ.storyboard; sourceTree = "<group>"; };
 		474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ekip.storyboard; sourceTree = "<group>"; };
 		474F4ECA290ABB5F00BE82A6 /* Basanas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basanas.storyboard; sourceTree = "<group>"; };
+		475027BD290C0407004EF60D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				474F4EB5290AB90500BE82A6 /* Assets.xcassets */,
 				474F4EB7290AB90500BE82A6 /* LaunchScreen.storyboard */,
 				474F4EBA290AB90500BE82A6 /* Info.plist */,
+				4748EB74290BD3B60044DD3E /* BasanasViewController.swift */,
+				475027BD290C0407004EF60D /* ApiManager.swift */,
 			);
 			path = SKETUVEUX;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			files = (
 				474F4EB1290AB90200BE82A6 /* DashboardViewController.swift in Sources */,
 				474F4EAD290AB90200BE82A6 /* AppDelegate.swift in Sources */,
+				475027BE290C0407004EF60D /* ApiManager.swift in Sources */,
+				4748EB75290BD3B60044DD3E /* BasanasViewController.swift in Sources */,
 				474F4EAF290AB90200BE82A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
