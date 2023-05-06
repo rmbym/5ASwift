@@ -22,6 +22,7 @@
 		474F4ECE290ABDFA00BE82A6 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECD290ABDFA00BE82A6 /* Realm */; };
 		474F4ED0290ABDFA00BE82A6 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECF290ABDFA00BE82A6 /* RealmSwift */; };
 		474F4ED3290ABEF700BE82A6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ED2290ABEF700BE82A6 /* Alamofire */; };
+		54595D13290BC56700C1E242 /* TeamRocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54595D12290BC56700C1E242 /* TeamRocketViewController.swift */; };
 		475027BE290C0407004EF60D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475027BD290C0407004EF60D /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JTJ.storyboard; sourceTree = "<group>"; };
 		474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ekip.storyboard; sourceTree = "<group>"; };
 		474F4ECA290ABB5F00BE82A6 /* Basanas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basanas.storyboard; sourceTree = "<group>"; };
+		54595D12290BC56700C1E242 /* TeamRocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRocketViewController.swift; sourceTree = "<group>"; };
 		475027BD290C0407004EF60D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				474F4EB5290AB90500BE82A6 /* Assets.xcassets */,
 				474F4EB7290AB90500BE82A6 /* LaunchScreen.storyboard */,
 				474F4EBA290AB90500BE82A6 /* Info.plist */,
+				54595D12290BC56700C1E242 /* TeamRocketViewController.swift */,
 				4748EB74290BD3B60044DD3E /* BasanasViewController.swift */,
 				475027BD290C0407004EF60D /* ApiManager.swift */,
 			);
@@ -184,6 +187,7 @@
 				475027BE290C0407004EF60D /* ApiManager.swift in Sources */,
 				4748EB75290BD3B60044DD3E /* BasanasViewController.swift in Sources */,
 				474F4EAF290AB90200BE82A6 /* SceneDelegate.swift in Sources */,
+				54595D13290BC56700C1E242 /* TeamRocketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MFJ59KV89T;
+				DEVELOPMENT_TEAM = 9FUT6T5A9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SKETUVEUX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "SKE TU VEUX";
@@ -344,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rmbym.SKETUVEUX;
+				PRODUCT_BUNDLE_IDENTIFIER = Julien.SKETUVEUX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -362,7 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MFJ59KV89T;
+				DEVELOPMENT_TEAM = 9FUT6T5A9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SKETUVEUX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "SKE TU VEUX";
@@ -376,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rmbym.SKETUVEUX;
+				PRODUCT_BUNDLE_IDENTIFIER = Julien.SKETUVEUX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
