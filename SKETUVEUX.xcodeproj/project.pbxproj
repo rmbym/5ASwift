@@ -26,6 +26,7 @@
 		474F4ECE290ABDFA00BE82A6 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECD290ABDFA00BE82A6 /* Realm */; };
 		474F4ED0290ABDFA00BE82A6 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ECF290ABDFA00BE82A6 /* RealmSwift */; };
 		474F4ED3290ABEF700BE82A6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 474F4ED2290ABEF700BE82A6 /* Alamofire */; };
+		FE72F3C6290BC7390023E701 /* PidoufController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72F3C5290BC7390023E701 /* PidoufController.swift */; };
 		54595D13290BC56700C1E242 /* TeamRocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54595D12290BC56700C1E242 /* TeamRocketViewController.swift */; };
 		475027BE290C0407004EF60D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475027BD290C0407004EF60D /* ApiManager.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JTJ.storyboard; sourceTree = "<group>"; };
 		474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ekip.storyboard; sourceTree = "<group>"; };
 		474F4ECA290ABB5F00BE82A6 /* Basanas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basanas.storyboard; sourceTree = "<group>"; };
+		FE72F3C5290BC7390023E701 /* PidoufController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidoufController.swift; sourceTree = "<group>"; };
 		54595D12290BC56700C1E242 /* TeamRocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRocketViewController.swift; sourceTree = "<group>"; };
 		475027BD290C0407004EF60D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				474F4EB0290AB90200BE82A6 /* DashboardViewController.swift */,
 				14C920F2290BC0FD003DE27A /* JTJController.swift */,
 				474F4EC2290ABA2000BE82A6 /* Pidouf.storyboard */,
+				FE72F3C5290BC7390023E701 /* PidoufController.swift */,
 				474F4EC6290ABAC600BE82A6 /* JTJ.storyboard */,
 				474F4EC8290ABAF900BE82A6 /* Ekip.storyboard */,
 				474F4EC4290ABA9C00BE82A6 /* LaTeamRocket.storyboard */,
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE72F3C6290BC7390023E701 /* PidoufController.swift in Sources */,
 				474F4EB1290AB90200BE82A6 /* DashboardViewController.swift in Sources */,
 				474F4EAD290AB90200BE82A6 /* AppDelegate.swift in Sources */,
 				14C920F3290BC0FD003DE27A /* JTJController.swift in Sources */,
